@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainDrivenDesign.Api", "DomainDrivenDesigne.Api\DomainDrivenDesign.Api.csproj", "{A926FEFB-688E-4134-94E7-085E2E838481}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A926FEFB-688E-4134-94E7-085E2E838481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A926FEFB-688E-4134-94E7-085E2E838481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A926FEFB-688E-4134-94E7-085E2E838481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A926FEFB-688E-4134-94E7-085E2E838481}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2775DFB9-A711-440E-AC64-F7F3D1A2BF99}
+	EndGlobalSection
+EndGlobal
