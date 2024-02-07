@@ -1,3 +1,4 @@
+using DomainDrivenDesign.Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DomainDrivenDesigne.Api.Controllers
@@ -12,11 +13,14 @@ namespace DomainDrivenDesigne.Api.Controllers
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
+        private readonly NorthwindDbContext _context;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(NorthwindDbContext context, ILogger<WeatherForecastController> logger)
         {
+            _context = context;
             _logger = logger;
         }
+
 
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
