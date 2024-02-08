@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using DomainDrivenDesign.Domain.Entities;
+﻿using DomainDrivenDesign.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace DomainDrivenDesign.Infrastructure.Data;
