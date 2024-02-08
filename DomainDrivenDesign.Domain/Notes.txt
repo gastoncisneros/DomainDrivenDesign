@@ -1,0 +1,3 @@
+Command for DbFirst Scaffolding
+
+Scaffold-DbContext -Connection "Server=DESKTOP-DFUD24O;Database=Northwind;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir C:\Users\USUARIO\source\NetProjects\DDD\DomainDrivenDesign\DomainDrivenDesign.Domain\Entities -Context NorthwindDbContext
