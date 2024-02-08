@@ -28,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DomainDrivenDesign.Infrastructure.Data\DomainDrivenDesign.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\DomainDrivenDesign.Infrastructure.Data\DomainDrivenDesign.Infrastructure.Data.csproj" />
   </ItemGroup>
 
 </Project>

@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DomainDrivenDesign.Common\DomainDrivenDesign.Common.csproj" />
-    <ProjectReference Include="..\DomainDrivenDesign.Domain.Entities\DomainDrivenDesign.Domain.Entities.csproj" />
+    <ProjectReference Include="..\..\Domain\DomainDrivenDesign.Domain.Entities\DomainDrivenDesign.Domain.Entities.csproj" />
+    <ProjectReference Include="..\..\Transversal\DomainDrivenDesign.Common\DomainDrivenDesign.Common.csproj" />
   </ItemGroup>
 
 </Project>

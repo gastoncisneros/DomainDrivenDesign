@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DomainDrivenDesign.Domain.Entities\DomainDrivenDesign.Domain.Entities.csproj" />
+    <ProjectReference Include="..\..\Domain\DomainDrivenDesign.Domain.Entities\DomainDrivenDesign.Domain.Entities.csproj" />
   </ItemGroup>
 
 </Project>
